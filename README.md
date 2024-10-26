@@ -75,5 +75,8 @@ Running the program will generate these output files:
 
 ---
 
-## License
-This code is for educational and research purposes. Make sure to cite the relevant references if used in publications.
+## Citations
+If you use this code in your research, please cite the following works:
+
+```markdown
+Rashmi, R., Yadav, P. K., Seal, A., Paranjothy, M., & Lourderaj, U. (2023). E–Z Isomerization in Guanidine: Second-order Saddle Dynamics, Non-statisticality, and Time-frequency Analysis. *ChemPhysChem, 24(2)*, e202200640.
