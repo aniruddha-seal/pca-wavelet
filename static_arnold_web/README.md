@@ -4,6 +4,9 @@
 
 - `gfortran` (GNU Fortran compiler)
 - `gnuplot` (for plotting)
+- `vim` (for editing output files)
+- `split` (for splitting files)
+- `eps2pdf` or another EPS-to-PDF conversion tool
 
 ## Instructions
 
@@ -54,16 +57,16 @@
     mkdir splits
     cp fort.72 splits/
     ```
-2. Inside `splits/`, split `fort.72` into multiple files such that each file represents one line:
+2. Inside `splits/`, split `fort.72` into multiple files so each file represents one line:
     ```bash
     cd splits
     split -l <lines_per_file> fort.72
     ```
    - This creates separate files for each vertical line.
 
-3. Create a file named `apple` inside `splits/`:
-   - Copy all split filenames into `apple` and add `w l,` to each line to format for `gnuplot`.
-4. Append `apple` to `out3` and add other plotting details to finalize the `gnuplot` settings file.
+3. Create a file named `plot_data` inside `splits/`:
+   - Copy all split filenames into `plot_data` and add `w l,` to each line to format for `gnuplot`.
+4. Append `plot_data` to `out3` and add other plotting details to finalize the `gnuplot` settings file.
 
 ### Step 6: Generate Plot
 
