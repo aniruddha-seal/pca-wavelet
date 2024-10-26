@@ -4,7 +4,7 @@ This repository contains a Fortran program for wavelet transform analysis, which
 
 ## Background
 The wavelet transform helps analyze vibrational frequencies and time-dependent dynamics in molecular simulations, assisting in the study of energy transfer between the dominant vibrational modes of the molecule. To understand the wavelet transform methods applied here, refer to:
-1. Vela-Arevalo LV, Wiggins S. *Time-frequency analysis of classical trajectories of polyatomic molecules.* International Journal of Bifurcation and Chaos. 2001; 11(05):1359-80.
+1. Vela-Arevalo LV, Wiggins S. [*Time-frequency analysis of classical trajectories of polyatomic molecules.*](https://doi.org/10.1142/S0218127401002766) International Journal of Bifurcation and Chaos. 2001; 11(05):1359-80.
 2. Rahaman A, Wheeler RA. *Wavelet transforms for determining time-dependent vibrational frequencies.* Journal of Chemical Theory and Computation. 2005; 1(5):769-71.
 3. *Numerical Recipes* for subroutines MNBRAK and FMAXIM.
 
