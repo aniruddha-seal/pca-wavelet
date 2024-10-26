@@ -1,9 +1,9 @@
 # Wavelet Transform for Analyzing Molecular Simulations
 
-This repository contains a Fortran program for wavelet transform analysis, originally provided by Prof. Manikandan Paranjothy, with some improvements. The code enables the study of Intramolecular Vibrational Redistribution (IVR) in high-dimensional molecular simulation trajectories. By using dimensionality reduction techniques with wavelet transform, we can understand the complex problem of IVR in molecular systems in terms of the dominant atomic motions, making the it more tractable.
+This repository contains a Fortran program for wavelet transform analysis, which enables the study of Intramolecular Vibrational Redistribution (IVR) in high-dimensional molecular simulation trajectories. By using dimensionality reduction techniques with the wavelet transform, we can understand the complex problem of IVR in molecular systems in terms of the dominant atomic motions, making the analysis more tractable.
 
 ## Background
-The wavelet transform helps analyze the vibrational frequencies and time-dependent dynamics in molecular simulations. In the context of IVR, this tool can assist in understanding energy transfer between the dominant vibrational modes of the molecule.
+The wavelet transform helps analyze vibrational frequencies and time-dependent dynamics in molecular simulations, assisting in the study of energy transfer between the dominant vibrational modes of the molecule.
 
 For a thorough understanding of wavelet transform methods applied here, refer to:
 1. Vela-Arevalo LV, Wiggins S. *Time-frequency analysis of classical trajectories of polyatomic molecules.* International Journal of Bifurcation and Chaos. 2001; 11(05):1359-80.
@@ -17,6 +17,9 @@ For a thorough understanding of wavelet transform methods applied here, refer to
 
 2. **Wavelet Transform**  
    Apply the wavelet transform to the reduced data from PCA to analyze time-dependent frequencies and visualize atomic motions over time.
+
+3. **Spline Fitting (Optional)**  
+   For further analysis, you can perform spline fitting on the wavelet transform results using `spline.py`. This requires Python with `scipy` and `numpy` installed.
 
 ---
 
@@ -54,6 +57,7 @@ Running the program will generate these output files:
 ### Software Requirements
 - Fortran compiler (e.g., `gfortran`)
 - Gnuplot (for generating 3D plots)
+- Python with `scipy` and `numpy` (for spline fitting)
 
 ### Steps to Run
 1. Compile the Fortran code:
@@ -72,6 +76,13 @@ Running the program will generate these output files:
     ```gnuplot
     plot 'max.out' using 1:2 with lines
     ```
+
+---
+
+## Contributors
+- **Manikandan Paranjothy** – Primary contributor
+- **Richa Rashmi** – Contributed modifications
+- **Aniruddha Seal** – Contributed modifications
 
 ---
 
@@ -103,6 +114,7 @@ If you use this code in your research, please cite the following works:
   publisher={National Acad Sciences}
 }
 ```
+
 ```bibtex
 @article{hare2019low,
   title={Low dimensional representations along intrinsic reaction coordinates and molecular dynamics trajectories using interatomic distance matrices},
