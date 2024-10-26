@@ -37,7 +37,7 @@ Running the program will generate these output files:
 5. **3D.pdf** - 3D wavelet plot.
 
 ### Adjustable Parameters in `wavelet.f`
-1. `N` - Number of trajectory points for the wavelet calculation, equivalent to the total number of lines in `input.dat` (update `N` in four places).
+1. `N` - Number of trajectory points for the wavelet calculation, equivalent to the total number of lines in `input.dat` (update `N` in three places).
 2. `BS` - Every BS-th line from `input.dat` is used for the wavelet (default: `BS=10`).
 3. `BS1` - Number of time points computed, given by `N/BS` (update in the declaration section).
 4. `FRR` - Number of frequency points per time point. The total frequency range is from `A0` to `A0 + 10*FRR` (default: `FRR=500`).
