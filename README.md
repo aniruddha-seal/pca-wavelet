@@ -14,7 +14,7 @@ The wavelet transform helps analyze vibrational frequencies and time-dependent d
    Conduct PCA on the Intrinsic Reaction Coordinate (IRC) in Cartesian space, representing atomic motions linking various stationary points on the PES. Use [PathReducer](https://github.com/share1992/PathReducer) for efficient PCA on IRC data.
 
 2. **Wavelet Transform**  
-   Apply the wavelet transform to the reduced data from PCA to analyze time-dependent frequencies and visualize atomic motions over time.
+   Apply the wavelet transform to the reduced data from PCA to analyze time-dependent frequencies and visualize the vibrational energy transfer over time.
 
 3. **Spline Fitting (Optional)**  
    For further analysis, you can perform spline fitting on the wavelet transform results using `spline.py`. This requires Python with `scipy` and `numpy` installed.
