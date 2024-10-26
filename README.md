@@ -13,7 +13,7 @@ For a thorough understanding of wavelet transform methods applied here, refer to
 ## Procedure Outline
 
 1. **Principal Component Analysis (PCA)**  
-   Conduct PCA on the Intrinsic Reaction Coordinate (IRC) in Cartesian space, representing atomic motions linking various stationary points on the PES. Use [PathReducer](https://github.com/share1992/PathReducer) for efficient PCA on high-dimensional data.
+   Conduct PCA on the Intrinsic Reaction Coordinate (IRC) in Cartesian space, representing atomic motions linking various stationary points on the PES. Use [PathReducer](https://github.com/share1992/PathReducer) for efficient PCA on IRC data.
 
 2. **Wavelet Transform**  
    Apply the wavelet transform to the reduced data from PCA to analyze time-dependent frequencies and visualize atomic motions over time.
