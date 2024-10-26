@@ -82,5 +82,4 @@
 
 ## Notes
 
-- Ensure the `n`, `m`, and loop values in `linear.f` and `vertical.f` match your data requirements.
-- The resulting PDF (`arnold7.pdf`) is ready for viewing or inclusion in documents.
+Ensure the `n`, `m`, and loop values in `linear.f` and `vertical.f` match your data requirements.
