@@ -3,8 +3,7 @@
 This repository contains a Fortran program for wavelet transform analysis, originally provided by Prof. Manikandan Paranjothy, with some improvements. The code enables the study of Intramolecular Vibrational Redistribution (IVR) in high-dimensional molecular simulation trajectories. By using dimensionality reduction techniques with wavelet transform, we can understand the complex problem of IVR in molecular systems in terms of the dominant atomic motions, making the it more tractable.
 
 ## Background
-The wavelet transform helps analyze the vibrational frequencies and time-dependent dynamics in molecular simulations. In the context of IVR, this tool can assist in:
-- Understanding energy transfer between the dominant vibrational modes of the molecule
+The wavelet transform helps analyze the vibrational frequencies and time-dependent dynamics in molecular simulations. In the context of IVR, this tool can assist in understanding energy transfer between the dominant vibrational modes of the molecule.
 
 For a thorough understanding of wavelet transform methods applied here, refer to:
 1. Vela-Arevalo LV, Wiggins S. *Time-frequency analysis of classical trajectories of polyatomic molecules.* International Journal of Bifurcation and Chaos. 2001; 11(05):1359-80.
