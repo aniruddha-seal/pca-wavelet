@@ -4,9 +4,6 @@
 
 - `gfortran` (GNU Fortran compiler)
 - `gnuplot` (for plotting)
-- `vim` (for editing output files)
-- `split` (for splitting files)
-- `eps2pdf` or another EPS-to-PDF conversion tool
 
 ## Instructions
 
