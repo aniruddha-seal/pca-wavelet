@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 #y = np.array([2, 4, 1, 5, 3])
 
 x, y = [], []
-with open('XX.dat', 'r') as f1:
+with open('__FILL_', 'r') as f1:
     for line in f1:
         data = line.strip().split()
         x.append(float(data[0]))
@@ -23,7 +23,7 @@ new_x = np.linspace(x[0], x[-1], num=20001)  # Adjust the 'num' parameter for de
 new_y = spline_func(new_x)
 
 data = np.column_stack((new_x, new_y))
-np.savetxt('XX_spline.dat', data, fmt='%.6f', delimiter='\t')
+np.savetxt('__FILL_spline.dat', data, fmt='%.6f', delimiter='\t')
 
 # Print the generated data
 #for i in range(len(new_x)):
@@ -33,4 +33,4 @@ plt.plot(x,y)
 plt.plot(new_x,new_y)
 plt.xlabel("time (fs)")
 plt.ylabel("nu_d")
-plt.savefig("XX_data.png")
+plt.savefig("__FILL_data.png")
