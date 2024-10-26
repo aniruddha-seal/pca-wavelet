@@ -78,5 +78,40 @@ Running the program will generate these output files:
 ## Citations
 If you use this code in your research, please cite the following works:
 
-```markdown
-Rashmi, R., Yadav, P. K., Seal, A., Paranjothy, M., & Lourderaj, U. (2023). E–Z Isomerization in Guanidine: Second-order Saddle Dynamics, Non-statisticality, and Time-frequency Analysis. *ChemPhysChem, 24(2)*, e202200640.
+```bibtex
+@article{rashmi2023z,
+  title={E- Z Isomerization in Guanidine: Second-order Saddle Dynamics, Non-statisticality, and Time-frequency Analysis},
+  author={Rashmi, Richa and Yadav, Pankaj Kumar and Seal, Aniruddha and Paranjothy, Manikandan and Lourderaj, Upakarasamy},
+  journal={ChemPhysChem},
+  volume={24},
+  number={2},
+  pages={e202200640},
+  year={2023},
+  publisher={Wiley Online Library}
+}
+```
+
+```bibtex
+@article{manikandan2014dynamical,
+  title={Dynamical traps lead to the slowing down of intramolecular vibrational energy flow},
+  author={Manikandan, Paranjothy and Keshavamurthy, Srihari},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={111},
+  number={40},
+  pages={14354--14359},
+  year={2014},
+  publisher={National Acad Sciences}
+}
+```
+```bibtex
+@article{hare2019low,
+  title={Low dimensional representations along intrinsic reaction coordinates and molecular dynamics trajectories using interatomic distance matrices},
+  author={Hare, Stephanie R and Bratholm, Lars A and Glowacki, David R and Carpenter, Barry K},
+  journal={Chemical science},
+  volume={10},
+  number={43},
+  pages={9954--9968},
+  year={2019},
+  publisher={Royal Society of Chemistry}
+}
+```
