@@ -1,17 +1,15 @@
 # Wavelet Transform for Analyzing Molecular Simulations
 
-This repository contains a Fortran program for wavelet transform analysis, originally provided by Prof. Manikandan Paranjothy, with some improvements. The code enables the study of Intramolecular Vibrational Redistribution (IVR) in high-dimensional molecular simulation trajectories. By using dimensionality reduction techniques, we can understand dynamics in terms of the dominant atomic motions, making the complex problem of IVR in molecular systems more tractable.
+This repository contains a Fortran program for wavelet transform analysis, originally provided by Prof. Manikandan Paranjothy, with some improvements. The code enables the study of Intramolecular Vibrational Redistribution (IVR) in high-dimensional molecular simulation trajectories. By using dimensionality reduction techniques with wavelet transform, we can understand the complex problem of IVR in molecular systems in terms of the dominant atomic motions, making the it more tractable.
 
 ## Background
 The wavelet transform helps analyze the vibrational frequencies and time-dependent dynamics in molecular simulations. In the context of IVR, this tool can assist in:
-- Understanding dominant atomic motions by reducing dimensional complexity.
-- Linking key atomic motions to transitions between stationary points on the Potential Energy Surface (PES).
+- Understanding energy transfer between the dominant vibrational modes of the molecule
 
 For a thorough understanding of wavelet transform methods applied here, refer to:
 1. Vela-Arevalo LV, Wiggins S. *Time-frequency analysis of classical trajectories of polyatomic molecules.* International Journal of Bifurcation and Chaos. 2001; 11(05):1359-80.
 2. Rahaman A, Wheeler RA. *Wavelet transforms for determining time-dependent vibrational frequencies.* Journal of Chemical Theory and Computation. 2005; 1(5):769-71.
 3. *Numerical Recipes* for subroutines MNBRAK and FMAXIM.
-4. Wikipedia for Composite Simpson's rule for integration.
 
 ## Procedure Outline
 
