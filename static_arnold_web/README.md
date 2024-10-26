@@ -1,6 +1,4 @@
-# Arnold Plotting Program
-
-This program generates linear equations and produces files that can be used to create custom plots with `gnuplot`. Follow the steps below to compile and run each Fortran file and prepare the data files for plotting. 
+# Static Arnold Web Plotting Program
 
 ## Software Requirements
 
