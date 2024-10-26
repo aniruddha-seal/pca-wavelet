@@ -6,8 +6,8 @@ set hidden3d
 set pm3d
 unset surface
 #set view 50,220
-set xrange [0:4.0]
-set yrange [700:4000]
+set xrange [__FILL_:__FILL_]
+set yrange [__FILL_:__FILL_]
 unset ztics
 set view 0,0
 set contour base
