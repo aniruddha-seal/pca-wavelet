@@ -98,9 +98,7 @@ If you use this code in your research, please cite the following works:
   year={2023},
   publisher={Wiley Online Library}
 }
-```
 
-```bibtex
 @article{manikandan2014dynamical,
   title={Dynamical traps lead to the slowing down of intramolecular vibrational energy flow},
   author={Manikandan, Paranjothy and Keshavamurthy, Srihari},
@@ -111,9 +109,7 @@ If you use this code in your research, please cite the following works:
   year={2014},
   publisher={National Acad Sciences}
 }
-```
 
-```bibtex
 @article{hare2019low,
   title={Low dimensional representations along intrinsic reaction coordinates and molecular dynamics trajectories using interatomic distance matrices},
   author={Hare, Stephanie R and Bratholm, Lars A and Glowacki, David R and Carpenter, Barry K},
